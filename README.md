@@ -47,5 +47,5 @@ updates and copy the changes over.
 
 This repository is created and updated doing exactly that, i.e:
 
-    cd google-hg && hg pull --update && cd ..
-    find google-hg -maxdepth 3 -type f -name \*.ttf -exec rsync -a {} google-git \;
+    cd googlefonts-hg && hg pull --update && cd ..
+    find googlefonts-hg -maxdepth 3 -type f -name \*.ttf -exec rsync -a {} googlefonts-git/fonts \;

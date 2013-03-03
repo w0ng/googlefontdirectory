@@ -7,7 +7,7 @@ relevant *.ttf files that end users need to use the fonts.
 ## About 
 
 Created for easier access to all of Google's Web Fonts, with a smaller download
-size (~60 MB) compared with using Google's official repository (~2 GB).
+size (<100 MB) compared with using Google's official repository (>2 GB).
 
 ### Installation
 

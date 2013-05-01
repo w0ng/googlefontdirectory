@@ -1,12 +1,12 @@
 # googlefontdirectory
 
-This is mirror of [Google Web
+This is mirror of [Google 
 Fonts](http://code.google.com/p/googlefontdirectory/) that contains only the
 relevant *.ttf files that end users need to use the fonts.
 
 ## About 
 
-Created for easier access to all of Google's Web Fonts, with a smaller download
+Created for easier access to all of Google Fonts, with a smaller download
 size (<100 MB) compared with using Google's official repository (>2 GB).
 
 ### Installation

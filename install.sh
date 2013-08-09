@@ -14,4 +14,5 @@ mv fonts/* /Library/Fonts/
 echo "Fonts Installed, Cleaning Up Files.."
 cd ~/Documents/
 rm -f master.tar.gz
+rm -rf goog-fonts
 echo "All Done! All Google Fonts installed."

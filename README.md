@@ -5,7 +5,7 @@
 
 Install ALL Google Web Fonts onto your mac with 1 simple terminal command.
 
-		bash < <(curl https://raw.github.com/qrpike/Web-Font-Load/master/install.sh)
+		curl https://raw.github.com/qrpike/Web-Font-Load/master/install.sh | sh
 
 For updating fonts, just re-run this script. It will overwrite duplicates.
 

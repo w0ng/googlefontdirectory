@@ -1,0 +1,17 @@
+DOCUMENTATION
+Andika v1.000
+========================
+
+
+This file describes the documentation files included with the Andika 
+font family. This information should be distributed along with the 
+Andika fonts and any derivative works.
+
+Primary documentation for the Andika font family is on the Andika 
+website (http://scripts.sil.org/andika).
+
+The Andika-features.pdf file illustrates the use of OpenType and 
+Graphite features.
+
+The Andika-features.odt file illustrates the use of OpenType and 
+Graphite features (source file for the pdf).

@@ -1,0 +1,82 @@
+FONTLOG for the Raleway fonts
+
+This file provides detailed information on the Raleway Font Software.
+
+This information should be distributed along with the Raleway fonts and any
+derivative works.
+
+Basic Font Information
+
+Raleway is an elegant sans-serif typeface family. Initially designed by
+Matt McInerney as a single thin weight, it was expanded into a 9 weight family by Pablo Impallari and Rodrigo Fuenzalida in 2012 and iKerned by Igino
+Marini.
+
+It is a display face and the download features both old style and lining
+numerals, standard and discretionary ligatures, a pretty complete set of
+diacritics, as well as a stylistic alternate inspired by more geometric
+sans-serif typefaces than its neo-grotesque inspired default character 
+set.
+
+It also has a sister family, Raleway Dots.
+
+Also, the characters set has been expanded to cover 95 languages: Afar,
+Afrikaans, Albanian, Basque, Bislama, Breton, Catalan, Chamorro, Chichewa,
+Comorian, Czech, Danish, Dutch, English, Esperanto, Estonian, Faroese, Fijian,
+Filipino/Tagalog, Finnish, Flemish, French, Gaelic, Gagauz, German, Gikuyu,
+Gilbertese/Kiribati, Greenlandic, Guarani, Haitian_Creole, Hawaiian,
+Hungarian, Icelandic, Indonesian, Irish, Italian, Javanese, Kashubian,
+Kinyarwanda, Kirundi, Latin, Latvian, Lithuanian, Luba/Ciluba/Kasai,
+Luxembourgish, Malagasy, Malay, Maltese, Maori, Marquesan, Marshallese,
+Moldovan/Moldovian/Romanian, Nauruan, Ndebele, Norwegian, Oromo,
+Palauan/Belauan, Polish, Portuguese, Quechua, Romanian, Romansh, Sami, Samoan,
+Sango, Sesotho, Setswana/Sitswana/Tswana, Seychellois_Creole,
+SiSwati/Swati/Swazi, Silesian, Slovak, Slovenian, Somali, Sorbian, Sotho,
+Spanish, Swahili, Swedish, Tahitian, Tetum, Tok_Pisin, Tongan, Tsonga, Tswana,
+Turkish, Turkmen, Tuvaluan, Uzbek/Usbek, Wallisian, Walloon, Welsh, Xhosa,
+Zulu.
+
+Documentation can be found at http://www.theleagueofmoveabletype.com and
+www.impallari.com
+
+To contribute to the project contact Matt McInerney at matt@matt.cc or Pablo
+Impallari at impallari@gmail.com
+
+ChangeLog
+
+7 Sept 2012  (Matt McInerney, Pablo Impallari, Rodrigo Fuenzalida) Raleway Family Beta v2.1
+- Fixed vertical metrics bug
+
+11 May 2012  (Matt McInerney, Pablo Impallari, Rodrigo Fuenzalida) Raleway Family Beta v2.0
+- iKerned
+- Remastered
+
+30 March 2012 (Matt McInerney, Pablo Impallari, Rodrigo Fuenzalida) Raleway Family Beta v1.06
+- Initial Beta release of the family expansion - Not yet spaced or Kerned.
+- 9 Weights: Thin, ExtraLight, Light, Regular, Medium, SemiBold, Bold, ExtraBold and Heavy weights.
+- Characters set expanded to cover 95 languages
+- For detailed inspection, please refer to the the FL source files (The OTF files where quickly generated using Ben Kiel's Font Generator macro, for testing purposes only).
+
+20 Feb 2010 (Matt McInerney) Raleway Light v1.01
+- Initial Release
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N), 
+email (E), web-address (if you have one) (W) and 
+description (D). This list is in alphabetical order.
+
+N: Matt McInerney
+E: matt@pixelspread.com
+W: http://pixelspread.com/
+D: Designer
+
+N: Pablo Impallari
+E: impallari@gmail.com
+W: http://www.impallari.com
+D: Designer
+
+N: Rodrigo Fuenzalida
+E: hello@rfuenzalida.com
+W: http://www.rfuenzalida.com
+D: Designer
+

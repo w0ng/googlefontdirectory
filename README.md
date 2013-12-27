@@ -23,29 +23,21 @@ compressed format by downloading one of these:
 Presently, there is no quick method for users to install all the fonts from 
 Google's official mercurial repository.
 
-In order to install from the official method, the general instructions are:
+In order to install from the official method, users are required to clone and
+pull updates from Google's hg repo (~2GB).
 
-1.  Clone Google's hg repository (~2GB in size)
+This repository mirrors that repo, but only contains the web font files
+(`*.ttf`) along with the relevant license (`*.txt`) and metadata (`*.json`)
+files, by periodically updating the hg repo and executing:
 
-2.  Traverse through a 3-level deep directory structure to find a relevant
-    *.ttf file.
-
-        googlefontdirectory
-        |-- apache
-        |   |-- aclonica
-                |-- Aclonica.ttf
-                ...
-
-3.  Copy the file to your system's font directory.
-
-4.  Repeat the previous steps for each of the ~1000 Google Web Fonts in
-    googlefontdirectory.
-
-Whilst steps 2-4 can be completed in one step (.e.g. using `find` in Linux), 
-users are still required to keep the 2GB repository lying around to pull any
-updates and copy the changes over.
-
-This repository is created and updated doing exactly that, i.e:
-
-    cd googlefonts-hg && hg pull --update && cd ..
-    find googlefonts-hg -maxdepth 3 -type f -name \*.ttf -exec rsync -a {} googlefonts-git/fonts \;
+    rsync -rv --delete --prune-empty-dirs \
+    --exclude='.hg' \
+    --exclude='designers' \
+    --exclude='tools' \
+    --exclude='src' \
+    --include='*/' \
+    --include='*.ttf' \
+    --include='*.json' \
+    --include='*.txt' \
+    --exclude='*' \
+    googlefonts-hg/* googlefonts-git/googlefontdirectory

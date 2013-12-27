@@ -1,0 +1,96 @@
+{
+  "name": "Raleway",
+  "designer": "Multiple Designers",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 60746,
+  "fonts": [
+    {
+      "name": "Raleway",
+      "postScriptName": "Raleway-Bold",
+      "fullName": "Raleway Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Raleway-Bold.ttf",
+      "copyright": "Copyright (c) 2010 - 2012, Matt McInerney (matt@pixelspread.com), Pablo Impallari(impallari@gmail.com), Rodrigo Fuenzalida (hello@rfuenzalida.com) with Reserved Font Name \"Raleway\""
+    },
+    {
+      "name": "Raleway",
+      "postScriptName": "Raleway-ExtraBold",
+      "fullName": "Raleway ExtraBold",
+      "style": "normal",
+      "weight": 800,
+      "filename": "Raleway-ExtraBold.ttf",
+      "copyright": "Copyright (c) 2010 - 2012, Matt McInerney (matt@pixelspread.com), Pablo Impallari(impallari@gmail.com), Rodrigo Fuenzalida (hello@rfuenzalida.com) with Reserved Font Name \"Raleway\""
+    },
+    {
+      "name": "Raleway",
+      "postScriptName": "Raleway-ExtraLight",
+      "fullName": "Raleway ExtraLight",
+      "style": "normal",
+      "weight": 200,
+      "filename": "Raleway-ExtraLight.ttf",
+      "copyright": "Copyright (c) 2010 - 2012, Matt McInerney (matt@pixelspread.com), Pablo Impallari(impallari@gmail.com), Rodrigo Fuenzalida (hello@rfuenzalida.com) with Reserved Font Name \"Raleway\""
+    },
+    {
+      "name": "Raleway",
+      "postScriptName": "Raleway-Heavy",
+      "fullName": "Raleway Heavy",
+      "style": "normal",
+      "weight": 900,
+      "filename": "Raleway-Heavy.ttf",
+      "copyright": "Copyright (c) 2010 - 2012, Matt McInerney (matt@pixelspread.com), Pablo Impallari(impallari@gmail.com), Rodrigo Fuenzalida (hello@rfuenzalida.com) with Reserved Font Name \"Raleway\""
+    },
+    {
+      "name": "Raleway",
+      "postScriptName": "Raleway-Light",
+      "fullName": "Raleway Light",
+      "style": "normal",
+      "weight": 300,
+      "filename": "Raleway-Light.ttf",
+      "copyright": "Copyright (c) 2010 - 2012, Matt McInerney (matt@pixelspread.com), Pablo Impallari(impallari@gmail.com), Rodrigo Fuenzalida (hello@rfuenzalida.com) with Reserved Font Name \"Raleway\""
+    },
+    {
+      "name": "Raleway",
+      "postScriptName": "Raleway-Medium",
+      "fullName": "Raleway Medium",
+      "style": "normal",
+      "weight": 500,
+      "filename": "Raleway-Medium.ttf",
+      "copyright": "Copyright (c) 2010 - 2012, Matt McInerney (matt@pixelspread.com), Pablo Impallari(impallari@gmail.com), Rodrigo Fuenzalida (hello@rfuenzalida.com) with Reserved Font Name \"Raleway\""
+    },
+    {
+      "name": "Raleway",
+      "postScriptName": "Raleway",
+      "fullName": "Raleway",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Raleway-Regular.ttf",
+      "copyright": "Copyright (c) 2010 - 2012, Matt McInerney (matt@pixelspread.com), Pablo Impallari(impallari@gmail.com), Rodrigo Fuenzalida (hello@rfuenzalida.com) with Reserved Font Name \"Raleway\""
+    },
+    {
+      "name": "Raleway",
+      "postScriptName": "Raleway-SemiBold",
+      "fullName": "Raleway SemiBold",
+      "style": "normal",
+      "weight": 600,
+      "filename": "Raleway-SemiBold.ttf",
+      "copyright": "Copyright (c) 2010 - 2012, Matt McInerney (matt@pixelspread.com), Pablo Impallari(impallari@gmail.com), Rodrigo Fuenzalida (hello@rfuenzalida.com) with Reserved Font Name \"Raleway\""
+    },
+    {
+      "name": "Raleway",
+      "postScriptName": "Raleway-Thin",
+      "fullName": "Raleway Thin",
+      "style": "normal",
+      "weight": 100,
+      "filename": "Raleway-Thin.ttf",
+      "copyright": "Copyright (c) 2010 - 2012, Matt McInerney (matt@pixelspread.com), Pablo Impallari(impallari@gmail.com), Rodrigo Fuenzalida (hello@rfuenzalida.com) with Reserved Font Name \"Raleway\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2012-09-07"
+}

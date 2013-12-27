@@ -1,0 +1,25 @@
+{
+  "name": "Glegoo",
+  "designer": "Eduardo Tunni",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 15296,
+  "fonts": [
+    {
+      "name": "Glegoo",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Glegoo-Regular.ttf",
+      "postScriptName": "Glegoo-Regular",
+      "fullName": "Glegoo",
+      "copyright": "Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name \"Glegoo\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-01-25"
+}

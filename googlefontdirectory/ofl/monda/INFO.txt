@@ -1,0 +1,3 @@
+The Monda font family is a free font family. The Monda Fonts are designed to be used freely across the internet by web browsers on desktop computers, laptops and mobile devices.
+All source files for the Monda Font family are hosted at
+https://github.com/vernnobile/mondaFont

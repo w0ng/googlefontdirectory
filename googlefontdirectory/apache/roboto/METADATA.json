@@ -1,0 +1,129 @@
+{
+  "name": "Roboto",
+  "designer": "Christian Robertson",
+  "license": "Apache2",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": 76809,
+  "fonts": [
+    {
+      "name": "Roboto",
+      "postScriptName": "Roboto-Thin",
+      "fullName": "Roboto Thin",
+      "style": "normal",
+      "weight": 100,
+      "filename": "Roboto-Thin.ttf",
+      "copyright": "Font data copyright Google 2012"
+    },
+    {
+      "name": "Roboto",
+      "postScriptName": "Roboto-ThinItalic",
+      "fullName": "Roboto Thin Italic",
+      "style": "italic",
+      "weight": 100,
+      "filename": "Roboto-ThinItalic.ttf",
+      "copyright": "Font data copyright Google 2012-2013"
+    },
+    {
+      "name": "Roboto",
+      "postScriptName": "Roboto-Light",
+      "fullName": "Roboto Light",
+      "style": "normal",
+      "weight": 300,
+      "filename": "Roboto-Light.ttf",
+      "copyright": "Font data copyright Google 2012"
+    },
+    {
+      "name": "Roboto",
+      "postScriptName": "Roboto-LightItalic",
+      "fullName": "Roboto Light Italic",
+      "style": "italic",
+      "weight": 300,
+      "filename": "Roboto-LightItalic.ttf",
+      "copyright": "Font data copyright Google 2012"
+    },
+    {
+      "name": "Roboto",
+      "postScriptName": "Roboto-Regular",
+      "fullName": "Roboto Regular",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Roboto-Regular.ttf",
+      "copyright": "Font data copyright Google 2012"
+    },
+    {
+      "name": "Roboto",
+      "postScriptName": "Roboto-Italic",
+      "fullName": "Roboto Italic",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Roboto-Italic.ttf",
+      "copyright": "Font data copyright Google 2012"
+    },
+    {
+      "name": "Roboto",
+      "postScriptName": "Roboto-Medium",
+      "fullName": "Roboto Medium",
+      "style": "normal",
+      "weight": 500,
+      "filename": "Roboto-Medium.ttf",
+      "copyright": "Font data copyright Google 2012"
+    },
+    {
+      "name": "Roboto",
+      "postScriptName": "Roboto-MediumItalic",
+      "fullName": "Roboto Medium Italic",
+      "style": "italic",
+      "weight": 500,
+      "filename": "Roboto-MediumItalic.ttf",
+      "copyright": "Font data copyright Google 2012"
+    },
+    {
+      "name": "Roboto",
+      "postScriptName": "Roboto-Bold",
+      "fullName": "Roboto Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Roboto-Bold.ttf",
+      "copyright": "Font data copyright Google 2012"
+    },
+    {
+      "name": "Roboto",
+      "postScriptName": "Roboto-BoldItalic",
+      "fullName": "Roboto Bold Italic",
+      "style": "italic",
+      "weight": 700,
+      "filename": "Roboto-BoldItalic.ttf",
+      "copyright": "Font data copyright Google 2012"
+    },
+    {
+      "name": "Roboto",
+      "postScriptName": "Roboto-Black",
+      "fullName": "Roboto Black",
+      "style": "normal",
+      "weight": 900,
+      "filename": "Roboto-Black.ttf",
+      "copyright": "Font data copyright Google 2012"
+    },
+    {
+      "name": "Roboto",
+      "postScriptName": "Roboto-BlackItalic",
+      "fullName": "Roboto Black Italic",
+      "style": "italic",
+      "weight": 900,
+      "filename": "Roboto-BlackItalic.ttf",
+      "copyright": "Font data copyright Google 2012"
+    }
+  ],
+  "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "greek-ext",
+    "latin",
+    "latin-ext",
+    "menu",
+    "vietnamese"
+  ],
+  "dateAdded": "2013-01-09"
+}

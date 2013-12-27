@@ -1,0 +1,24 @@
+{
+  "name": "Lohit Devanagari",
+  "designer": "Multiple Designers",
+  "license": "OFL",
+  "visibility": "Internal",
+  "category": "Serif",
+  "size": 34771,
+  "fonts": [
+    {
+      "name": "Lohit Devanagari",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Lohit-Devanagari.ttf",
+      "postScriptName": "Lohit-Devanagari",
+      "fullName": "Lohit Devanagari",
+      "copyright": "Copyright 2011 Lohit Fonts Project contributors (psatpute@redhat.com). <http://fedorahosted.org/lohit> Licensed under the SIL Open Font License 1.1 (see file OFL.txt)"
+    }
+  ],
+  "subsets": [
+    "hindi",
+    "menu"
+  ],
+  "dateAdded": "2011-12-12"
+}

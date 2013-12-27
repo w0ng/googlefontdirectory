@@ -1,0 +1,20 @@
+SOURCES
+Gentium Basic and Gentium Book Basic  v1.1
+==========================================================
+
+
+This file describes the source files included with the Gentium Basic and Gentium Book Basic font families. This information should be distributed along with the Gentium Basic and Gentium Book Basic fonts and any derivative works.
+
+As a reminder: these source files are Copyright (c) 2003-2008 SIL International
+(http://www.sil.org/), with Reserved Font Names "Gentium" and "SIL".
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+
+
+FontLab sources: The .vfb files are FontLab source files and contain all the glyph outline data for the Gentium Basic and Gentium Book Basic font families. Please note that it is not possible to generate fonts from these files that are identical to the final versions, as some postprocessing is done on the fonts after generation from FontLab. 
+
+TTFBconfig.xml: This file is the control file used alongside TTFBuilder, which is part of the FontUtils package (http://scripts.sil.org/FontUtils). It works directly on the generated TTF file to build a font with the correct contents and glyph names.
+
+DblEnc.txt: This file contains information on double encoding that is added to the TTF file. This is primarily used for glyphs that represent characters in the SIL PUA that were later accepted into Unicode.
+
+The code used to insert OpenType and Graphite tables into the font is not currently included. It will be released in a future version of the main Gentium package.
+

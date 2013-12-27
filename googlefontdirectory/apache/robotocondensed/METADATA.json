@@ -1,0 +1,75 @@
+{
+  "name": "Roboto Condensed",
+  "designer": "Christian Robertson",
+  "license": "Apache2",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": 91270,
+  "fonts": [
+    {
+      "name": "Roboto Condensed",
+      "postScriptName": "RobotoCondensed-Light",
+      "fullName": "Roboto Condensed Light",
+      "style": "normal",
+      "weight": 300,
+      "filename": "RobotoCondensed-Light.ttf",
+      "copyright": "Font data copyright Google 2012"
+    },
+    {
+      "name": "Roboto Condensed",
+      "postScriptName": "RobotoCondensed-LightItalic",
+      "fullName": "Roboto Condensed Light Italic",
+      "style": "italic",
+      "weight": 300,
+      "filename": "RobotoCondensed-LightItalic.ttf",
+      "copyright": "Font data copyright Google 2012"
+    },
+    {
+      "name": "Roboto Condensed",
+      "postScriptName": "RobotoCondensed-Regular",
+      "fullName": "Roboto Condensed Regular",
+      "style": "normal",
+      "weight": 400,
+      "filename": "RobotoCondensed-Regular.ttf",
+      "copyright": "Font data copyright Google 2012"
+    },
+    {
+      "name": "Roboto Condensed",
+      "postScriptName": "RobotoCondensed-Italic",
+      "fullName": "Roboto Condensed Italic",
+      "style": "italic",
+      "weight": 400,
+      "filename": "RobotoCondensed-Italic.ttf",
+      "copyright": "Font data copyright Google 2012"
+    },
+    {
+      "name": "Roboto Condensed",
+      "postScriptName": "RobotoCondensed-Bold",
+      "fullName": "Roboto Condensed Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "RobotoCondensed-Bold.ttf",
+      "copyright": "Font data copyright Google 2012"
+    },
+    {
+      "name": "Roboto Condensed",
+      "postScriptName": "RobotoCondensed-BoldItalic",
+      "fullName": "Roboto Condensed Bold Italic",
+      "style": "italic",
+      "weight": 700,
+      "filename": "RobotoCondensed-BoldItalic.ttf",
+      "copyright": "Font data copyright Google 2012"
+    }
+  ],
+  "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "greek-ext",
+    "latin",
+    "latin-ext",
+    "menu",
+    "vietnamese"
+  ],
+  "dateAdded": "2012-06-26"
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Montserrat",
+  "designer": "Julieta Ulanovsky",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 14615,
+  "fonts": [
+    {
+      "name": "Montserrat",
+      "postScriptName": "Montserrat-Bold",
+      "fullName": "Montserrat-Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Montserrat-Bold.ttf",
+      "copyright": "Copyright (c) 2011-2012, Julieta Ulanovsky (julieta.ulanovsky@gmail.com), with Reserved Font Names 'Montserrat'"
+    },
+    {
+      "name": "Montserrat",
+      "postScriptName": "Montserrat-Regular",
+      "fullName": "Montserrat-Regular",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Montserrat-Regular.ttf",
+      "copyright": "Copyright (c) 2011-2012, Julieta Ulanovsky (julieta.ulanovsky@gmail.com), with Reserved Font Names 'Montserrat'"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-12-13"
+}

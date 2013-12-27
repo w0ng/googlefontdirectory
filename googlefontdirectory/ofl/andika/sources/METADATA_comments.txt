@@ -1,0 +1,35 @@
+#
+# WARNING: NOTE THAT ONLY GOOGLE INC MAY DISTRIBUTE MODIFIED VERSIONS WITH RFN
+# AND NOTE THAT SUBSETS ARE NOT ALLOWED BECAUSE THEY MAY NOT BE MARKED 
+# CLEARLY ENOUGH FOR SIL
+#
+# OLD
+#
+# cd ~/src/font-optimizer/; ./subset.pl -v \
+#  --exclude="smcp,ordn,sups,sinf,subs,dlig,frac,mark,aalt,c2sc,ccmp,mkmk,smcp,kern" \
+#  --chars="Andika" \
+#  ~/googlefontdirectory/andika/Andika-R.{ttf,menu}; \
+# cd ~/googlefontdirectory/andika/; \
+# ~/googlefontdirectory/tools/chars/showchars.py Andika-R.menu; \
+#
+# NEW
+# fontforge -lang=ff -script menusubset-andika.ff Andika-R.ttf; \
+# mv Andika-R.{ttf.menu.ttf,menu}; \
+# ~/googlefontdirectory/tools/chars/showchars.py Andika-R.menu; \
+# echo "ENSURE THAT THE SPACE CHAR IS THERE"; \
+# cd ~/googlefontdirectory/andika/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
+# cd ~/googlefontdirectory/; \
+# for family in andika; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext \
+#            cyrillic+latin cyrillic-ext+latin; do \
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \

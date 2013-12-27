@@ -1,6 +1,6 @@
 # googlefontdirectory
 
-This is __UNOFFICIAL MIRROR__ of [Google 
+This is an __UNOFFICIAL MIRROR__ of [Google 
 Fonts](http://code.google.com/p/googlefontdirectory/) that contains only the
 relevant `*.ttf` files that end users need to use the fonts.
 

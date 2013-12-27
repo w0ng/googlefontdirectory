@@ -30,14 +30,13 @@ This repository mirrors that repo, but only contains the web font files
 (`*.ttf`) along with the relevant license (`*.txt`) and metadata (`*.json`)
 files, by periodically updating the hg repo and executing:
 
-    rsync -rv --delete --prune-empty-dirs \
-    --exclude='.hg' \
-    --exclude='designers' \
-    --exclude='tools' \
-    --exclude='src' \
-    --include='*/' \
-    --include='*.ttf' \
-    --include='*.json' \
-    --include='*.txt' \
-    --exclude='*' \
-    googlefonts-hg/* googlefonts-git/googlefontdirectory
+```sh
+# Find webfont or license or metadata file in the hg repo.
+# Extract dirname from file.
+# Extract parent folder name from dirname. Create parent folder name in git repo if it doesn't exist.
+# Copy the file changes to git repo
+find ./googlefonts-hg -maxdepth 3 \( -name '*.ttf' -o -name '*.txt' -o -name '*.json' \) \
+  -exec sh -c 'dir="${1%/*}"; \
+  [[ ! -d ./googlefonts-git/fonts/"${dir##*/}" ]] && mkdir -pv ./googlefonts-git/fonts/"${dir##*/}"; \
+  rsync -rmv --delete "$1" ./googlefonts-git/fonts/"${1#*/*/*/}";' _ {} \;
+```

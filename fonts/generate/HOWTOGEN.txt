@@ -1,0 +1,183 @@
+# This document documents the commands used by dcrossland when
+# preparing fonts from VFB sources with nonhinting in batches
+
+# FontLab, check all metadata correct, save
+for vfb in `ls -1 */src/*vfb`; do open -a FontLab $vfb; done;
+
+# remove BAK files
+for bak in `ls -1 */src/*bak`; do rm $bak; done;
+
+# open all *-OTF.vfb (by hand check they are all there) and Generate All OTFs in ~
+for vfb in `ls -1 */src/*OTF.vfb`; do open -a FontLab $vfb; done;
+# move the OTFs in by hand
+
+# or if SFD, generate them like this:
+for dir in `for i in * ; do if [ -d $i ]; then echo $i ; fi ; done`; do cd $dir/src/; for sfd in `ls -1 */src/*OTF.sfd`; do ~/googlefontdirectory/tools/generate/generate.py -o $sfd; done; cd ../../; done; 
+
+# check v metrics
+# for dir in `ls -1`; do cd $dir/src/; for i in `ls -1 *tf`; do ~/googlefontdirectory/tools/bbox/vmet.sh $i >> tmp-1-vmetrics-report; done; grep scen tmp-1-vmetrics-report | sort | uniq > tmp-2-vmetrics-summary; grep linegap tmp-1-vmetrics-report | sort | uniq >> tmp-2-vmetrics-summary; grep bbox tmp-1-vmetrics-report | sort | uniq > tmp-3-bbox; gedit tmp-*; cd ../../; done;
+for i in `ls -1 *tf`; do ~/googlefontdirectory/tools/bbox/vmet.sh $i >> tmp-1-vmetrics-report; done; grep scen tmp-1-vmetrics-report | sort | uniq > tmp-2-vmetrics-summary; grep linegap tmp-1-vmetrics-report | sort | uniq >> tmp-2-vmetrics-summary; grep bbox tmp-1-vmetrics-report | sort | uniq > tmp-3-bbox; gedit tmp-*;
+
+# Correct V metrics and regenerate if needed
+
+# remove metrics check files if all good
+# rm */src/tmp*;
+rm tmp*;
+
+# ttx all the new OTFs and remove the OTFs
+# for font in `ls -1 */src/*OTF.otf`; do ttx $font; mv $font /tmp; done;
+ttx *otf; mv *otf /tmp
+
+# check BOTH the "Full Name" namerecord tags with nameID="4" are correct (ie, no Regular in regular fonts)
+# check BOTH the "PS Name"   namerecord tags with nameID="6" are correct (ie, w -Regular in regular fonts)
+# for ttx in `ls -1 */src/*ttx`; do gedit $ttx; done;
+for ttx in `ls -1 *ttx`; do gedit $ttx; done;
+
+# ttx back the OTFs
+# for ttx in `ls -1 */src/*ttx`; do ttx $ttx; done;
+for ttx in `ls -1 *ttx`; do ttx $ttx; done;
+
+# Convert the OTFs to TTFs
+# for otf in `ls -1 */src/*otf`; do echo $otf && ~/googlefontdirectory/tools/nonhinting/setquadraticaddextremasimplify-fontforge.py $otf; done;
+for otf in `ls -1 *otf`; do echo $otf && ~/googlefontdirectory/tools/nonhinting/setquadraticaddextremasimplify-fontforge.py $otf; done;
+
+# watch out for warnings like this which mean going back to the ttx
+#
+# Warning: Mac and Windows entries in the 'name' table differ for the
+#  Family string in the language English (US)
+#  Mac String: Cambo Regular
+# Windows String: Cambo
+
+
+# Add PREP and GASP with TTX
+# for ttf in `ls -1 */src/*ttf`; do ~/googlefontdirectory/tools//nonhinting/setnonhinting-fonttools.py $ttf; done;
+for ttf in `ls -1 *ttf`; do ~/googlefontdirectory/tools//nonhinting/setnonhinting-fonttools.py $ttf; done;
+
+# Remove the backup files created by the prep-gasp tool
+# for ttf in `ls -1 */src/*OTF.ttf`; do rm $ttf; done;
+# for ttf in `ls -1 */src/*OTF-backup*.ttf`; do rm $ttf; done;
+for ttf in `ls -1 *OTF.ttf`; do rm $ttf; done;
+for ttf in `ls -1 *OTF-backup*.ttf`; do rm $ttf; done;
+
+
+# Rename the OTFs
+# for otf in `ls -1 */src/*otf`; do rename s/-OTF//g $otf; done;
+for otf in `ls -1 *otf`; do rename s/-OTF//g $otf; done;
+
+# Rename the TTFs
+# for ttf in `ls -1 */src/*after*ttf`; do rename s/-OTF-after-fonttools-prep-gasp//g $ttf; done;
+for ttf in `ls -1 *after*ttf`; do rename s/-OTF-after-fonttools-prep-gasp//g $ttf; done;
+
+# Generate SFDs
+# for ttf in `ls -1 */src/*ttf`; do ~/googlefontdirectory/tools//nonhinting/ttf2sfd.py $ttf; done;
+for ttf in `ls -1 *ttf`; do ~/googlefontdirectory/tools//nonhinting/ttf2sfd.py $ttf; done;
+
+
+# Move the TTFs up tree
+# for dir in `ls -1`; do cd $dir; mv src/*ttf .; cd ..; done;
+mv *ttf ..;
+
+# cp in subsets template
+# for dir in `ls -1`; do cp ~/dcrossland-fontdirectory/INCOMING/METADATA_comments.txt $dir/src/; done;
+cp ~/dcrossland-fontdirectory/INCOMING/METADATA_comments.txt .;
+
+# edit the templates
+# for dir in `ls -1`; do gedit $dir/src/METADATA_comments.txt; done;
+gedit METADATA_comments.txt;
+
+# generate METADATA.json
+# MYPWD=`pwd`; for dir in `ls -1`; do cd $dir; ~/googlefontdirectory/tools/genmetadata/genmetadata.py .; ~/googlefontdirectory/tools/genmetadata/genmetadata.py .; mv METADATA.json.new METADATA.json; cd $MYPWD; done;
+cd ..; ~/googlefontdirectory/tools/genmetadata/genmetadata.py .; ~/googlefontdirectory/tools/genmetadata/genmetadata.py .; mv METADATA.json.new METADATA.json; 
+
+# edit the METADATA, OFL and FONTLOG files
+for dir in `for i in `ls -1`; do if [ -d $i ]; then echo $i ; fi ; done`; do gedit $dir/METADATA.json; gedit $dir/*txt; done;
+
+# ensure they are all good
+# TODO write some actual tests for family key, filename and internal metadata congruence, font.* key and filename congruence, line breaks are correct (no trailing space) etc
+
+# note the family dir names
+# ls -1 >> dirs.txt
+
+# Move dirs to GFD repo
+for dir in `cat dirs.txt`; do mv $dir ~/googlefontdirectory/ofl/; done
+
+# Run the subset scripts
+for dir in `cat dirs.txt`; do bash ~/googlefontdirectory/ofl/$dir/src/METADATA_comments.txt; done
+
+
+# Rerun the metadata generator
+for dir in `cat dirs.txt`; do cd ~/googlefontdirectory/ofl/$dir;  ~/googlefontdirectory/tools/genmetadata/genmetadata.py .; mv METADATA.json.new METADATA.json; done;
+
+# Run the lint tool
+for dir in `cat dirs.txt`; do cd ~/googlefontdirectory/ofl/$dir; java -jar ~/googlefontdirectory/tools/lint/dist/lint.jar .; done;
+
+
+
+# Check the METADATA.json - especially for dateAdded details
+
+for dir in `cat dirs.txt`; do gedit ~/googlefontdirectory/ofl/$dir/METADATA.json; done;
+
+# Check the fonts
+
+# Check in the fonts
+for dir in `cat dirs.txt`; do 
+cd ~/googlefontdirectory/ofl;
+hg add $dir;
+hg ci $newdir -m "Adding $newdir"; done
+
+# Make up push spreadsheet, prepare tweets:
+
+for url in `cat ~/tmp-1-urls.txt`; do echo curl https://www.googleapis.com/urlshortener/v1/url -H \'Content-Type: application/json\' -d \'{\"longUrl\": \"$url\"}\' >> tmp-2-shorturls.txt; done; bash tmp-2-shorturls.txt >> tmp-3-api.txt; grep goo.gl tmp-3-api.txt | cut -d\" -f4 >> tmp-4-shorturls.txt; gedit tmp-1-urls.txt tmp-4-shorturls.txt;
+
+# compact
+
+for vfb in `ls -1 */src/*vfb`; do open -a FontLab $vfb; done;
+for bak in `ls -1 */src/*bak`; do rm $bak; done;
+for vfb in `ls -1 */src/*OTF.vfb`; do open -a FontLab $vfb; done;
+# move the OTFs in by hand, or go to src and do:
+#   for sfd in `ls -1 */src/*OTF.sfd`; do ~/googlefontdirectory/tools/generate/generate.py -o $sfd; done; 
+# and maybe, rename s/.otf/-OTF.otf/g *;
+
+for dir in `ls -1`; do cd $dir/src/; grep scen tmp-1-vmetrics-report | sort | uniq > tmp-2-vmetrics-summary; grep linegap tmp-1-vmetrics-report | sort | uniq >> tmp-2-vmetrics-summary; grep bbox tmp-1-vmetrics-report | sort | uniq > tmp-3-bbox; gedit tmp-*; cd ../../; done;
+
+rm */src/tmp*;
+
+for font in `ls -1 */src/*OTF.otf`; do ttx $font; rm $font; done; 
+for ttx in `ls -1 */src/*ttx`; do gedit $ttx; done;
+
+for ttx in `ls -1 */src/*ttx`; do ttx $ttx; rm $ttx; done;
+for otf in `ls -1 */src/*otf`; do echo $otf && ~/googlefontdirectory/tools/nonhinting/setquadraticaddextremasimplify-fontforge.py $otf; done;
+# Warning: Mac and Windows entries in the 'name' table differ for the
+
+for ttf in `ls -1 */src/*ttf`; do ~/googlefontdirectory/tools//nonhinting/setnonhinting-fonttools.py $ttf; done; 
+for ttf in `ls -1 */src/*OTF.ttf`; do rm $ttf; done; 
+for ttf in `ls -1 */src/*backup*.ttf`; do rm $ttf; done; 
+for otf in `ls -1 */src/*otf`; do rename s/-OTF//g $otf; done; 
+for ttf in `ls -1 */src/*after*ttf`; do rename s/-OTF-after-fonttools-prep-gasp//g $ttf; done; 
+for ttf in `ls -1 */src/*ttf`; do ~/googlefontdirectory/tools//nonhinting/ttf2sfd.py $ttf; done;
+for dir in `for i in * ; do if [ -d $i ]; then echo $i ; fi ; done`; do cd $dir; mv src/*ttf .; cd ..; done;
+for dir in `for i in * ; do if [ -d $i ]; then echo $i ; fi ; done`; do cd $dir; ~/googlefontdirectory/tools/genmetadata/genmetadata.py .; ~/googlefontdirectory/tools/genmetadata/genmetadata.py .; mv METADATA.json.new METADATA.json; cd ..; done; 
+for dir in `for i in * ; do if [ -d $i ]; then echo $i ; fi ; done`; do gedit $dir/METADATA.json $dir/*txt; done;
+
+grep \# */METADATA | cut -d: -f2 | tr -d "#" >> tmp-4-subsets.sh;
+for dir in `for i in * ; do if [ -d $i ]; then echo $i ; fi ; done`; do mv $dir ~/googlefontdirectory/; done
+bash tmp-4-subsets.sh;
+cd ~/googlefontdirectory; for newdir in `hg st | grep "?" | cut -d" " -f2 | cut -d/ -f1 | sort | uniq`; do hg add $newdir; hg ci $newdir -m "Adding $newdir"; done
+
+
+
+for otf in `ls -1 */src/*otf`; do echo $otf && ~/googlefontdirectory/tools/nonhinting/setquadraticaddextremasimplify-fontforge.py $otf; done;
+for ttf in `ls -1 */src/*ttf`; do ~/googlefontdirectory/tools//nonhinting/setnonhinting-fonttools.py $ttf; done; 
+for ttf in `ls -1 */src/*OTF.ttf`; do rm $ttf; done; 
+for ttf in `ls -1 */src/*OTF-backup*.ttf`; do rm $ttf; done; 
+for otf in `ls -1 */src/*otf`; do rename s/-OTF//g $otf; done; 
+for ttf in `ls -1 */src/*after*ttf`; do rename s/-OTF-after-fonttools-prep-gasp//g $ttf; done; 
+for ttf in `ls -1 */src/*ttf`; do ~/googlefontdirectory/tools//nonhinting/ttf2sfd.py $ttf; done;
+for dir in `for i in * ; do if [ -d $i ]; then echo $i ; fi ; done`; do cd $dir; mv src/*ttf .; cd ..; done;
+for dir in `for i in * ; do if [ -d $i ]; then echo $i ; fi ; done`; do cd $dir; cat ~/dcrossland-fontdirectory/INCOMING/METADATAtemplate-simple.txt >> METADATA; cd ..; done; 
+for dir in `for i in * ; do if [ -d $i ]; then echo $i ; fi ; done`; do gedit $dir/METADATA; gedit $dir/*txt; done;
+
+grep \# */METADATA | cut -d: -f2 | tr -d "#" >> tmp-4-subsets.sh;
+for dir in `for i in * ; do if [ -d $i ]; then echo $i ; fi ; done`; do mv $dir ~/googlefontdirectory/; done
+bash tmp-4-subsets.sh;
+cd ~/googlefontdirectory; for newdir in `hg st | grep "?" | cut -d" " -f2 | cut -d/ -f1 | sort | uniq`; do hg add $newdir; hg ci $newdir -m "Adding $newdir"; done

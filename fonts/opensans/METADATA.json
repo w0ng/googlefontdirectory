@@ -100,6 +100,7 @@
   "subsets": [
     "cyrillic",
     "cyrillic-ext",
+    "devanagari",
     "greek",
     "greek-ext",
     "latin",

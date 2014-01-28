@@ -17,7 +17,7 @@
     }
   ],
   "subsets": [
-    "hindi",
+    "devanagari",
     "menu"
   ],
   "dateAdded": "2011-12-12"

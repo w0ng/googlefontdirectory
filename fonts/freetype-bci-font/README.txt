@@ -1,1 +1,0 @@
-From http://code.google.com/p/chromium/issues/detail?id=173207

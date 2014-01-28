@@ -35,7 +35,7 @@ files, by periodically updating the hg repo and executing:
 # Extract dirname from file.
 # Extract parent folder name from dirname. Create parent folder name in git repo if it doesn't exist.
 # Copy the file changes to git repo
-find ./googlefonts-hg -maxdepth 3 \( -name '*.ttf' -o -name '*.txt' -o -name '*.json' \) \
+find ./googlefonts-hg/{apache,ofl,ufl} -maxdepth 2 \( -name '*.ttf' -o -name '*.txt' -o -name '*.json' \) \
   -exec sh -c 'dir="${1%/*}"; \
   [[ ! -d ./googlefonts-git/fonts/"${dir##*/}" ]] && mkdir -pv ./googlefonts-git/fonts/"${dir##*/}"; \
   rsync -rmv --delete "$1" ./googlefonts-git/fonts/"${1#*/*/*/}";' _ {} \;

@@ -2,7 +2,7 @@
   "name": "Alegreya Sans",
   "designer": "Juan Pablo del Peral",
   "license": "OFL",
-  "visibility": "Sandbox",
+  "visibility": "External",
   "category": "Sans Serif",
   "size": 54635,
   "fonts": [
@@ -13,7 +13,7 @@
       "style": "normal",
       "weight": 900,
       "filename": "AlegreyaSans-Black.ttf",
-      "copyright": "Copyright (c) 2013, Natanael Gama (www.ndiscovered.com . info(at)ndiscovered.com), with Reserved Font Name Exo. This Font Software is licensed under the SIL Open Font License, Version 1.1."
+      "copyright": "Copyright (c) 2013, Juan Pablo del Peral (juan@huertatipografica.com), with Reserved Font Names \"Alegreya Sans\" \"Alegreya Sans SC\""
     },
     {
       "name": "Alegreya Sans",
@@ -22,7 +22,7 @@
       "style": "italic",
       "weight": 900,
       "filename": "AlegreyaSans-BlackItalic.ttf",
-      "copyright": "Copyright (c) 2013, Natanael Gama (www.ndiscovered.com . info(at)ndiscovered.com), with Reserved Font Name Exo. This Font Software is licensed under the SIL Open Font License, Version 1.1."
+      "copyright": "Copyright (c) 2013, Juan Pablo del Peral (juan@huertatipografica.com), with Reserved Font Names \"Alegreya Sans\" \"Alegreya Sans SC\""
     },
     {
       "name": "Alegreya Sans",
@@ -31,7 +31,7 @@
       "style": "normal",
       "weight": 700,
       "filename": "AlegreyaSans-Bold.ttf",
-      "copyright": "Copyright (c) 2013, Natanael Gama (www.ndiscovered.com . info(at)ndiscovered.com), with Reserved Font Name Exo. This Font Software is licensed under the SIL Open Font License, Version 1.1."
+      "copyright": "Copyright (c) 2013, Juan Pablo del Peral (juan@huertatipografica.com), with Reserved Font Names \"Alegreya Sans\" \"Alegreya Sans SC\""
     },
     {
       "name": "Alegreya Sans",
@@ -40,7 +40,7 @@
       "style": "italic",
       "weight": 700,
       "filename": "AlegreyaSans-BoldItalic.ttf",
-      "copyright": "Copyright (c) 2013, Natanael Gama (www.ndiscovered.com . info(at)ndiscovered.com), with Reserved Font Name Exo. This Font Software is licensed under the SIL Open Font License, Version 1.1."
+      "copyright": "Copyright (c) 2013, Juan Pablo del Peral (juan@huertatipografica.com), with Reserved Font Names \"Alegreya Sans\" \"Alegreya Sans SC\""
     },
     {
       "name": "Alegreya Sans",
@@ -49,7 +49,7 @@
       "style": "normal",
       "weight": 800,
       "filename": "AlegreyaSans-ExtraBold.ttf",
-      "copyright": "Copyright (c) 2013, Natanael Gama (www.ndiscovered.com . info(at)ndiscovered.com), with Reserved Font Name Exo. This Font Software is licensed under the SIL Open Font License, Version 1.1."
+      "copyright": "Copyright (c) 2013, Juan Pablo del Peral (juan@huertatipografica.com), with Reserved Font Names \"Alegreya Sans\" \"Alegreya Sans SC\""
     },
     {
       "name": "Alegreya Sans",
@@ -58,7 +58,7 @@
       "style": "italic",
       "weight": 800,
       "filename": "AlegreyaSans-ExtraBoldItalic.ttf",
-      "copyright": "Copyright (c) 2013, Natanael Gama (www.ndiscovered.com . info(at)ndiscovered.com), with Reserved Font Name Exo. This Font Software is licensed under the SIL Open Font License, Version 1.1."
+      "copyright": "Copyright (c) 2013, Juan Pablo del Peral (juan@huertatipografica.com), with Reserved Font Names \"Alegreya Sans\" \"Alegreya Sans SC\""
     },
     {
       "name": "Alegreya Sans",
@@ -67,7 +67,7 @@
       "style": "italic",
       "weight": 400,
       "filename": "AlegreyaSans-Italic.ttf",
-      "copyright": "Copyright (c) 2013, Natanael Gama (www.ndiscovered.com . info(at)ndiscovered.com), with Reserved Font Name Exo. This Font Software is licensed under the SIL Open Font License, Version 1.1."
+      "copyright": "Copyright (c) 2013, Juan Pablo del Peral (juan@huertatipografica.com), with Reserved Font Names \"Alegreya Sans\" \"Alegreya Sans SC\""
     },
     {
       "name": "Alegreya Sans",
@@ -76,7 +76,7 @@
       "style": "normal",
       "weight": 300,
       "filename": "AlegreyaSans-Light.ttf",
-      "copyright": "Copyright (c) 2013, Natanael Gama (www.ndiscovered.com . info(at)ndiscovered.com), with Reserved Font Name Exo. This Font Software is licensed under the SIL Open Font License, Version 1.1."
+      "copyright": "Copyright (c) 2013, Juan Pablo del Peral (juan@huertatipografica.com), with Reserved Font Names \"Alegreya Sans\" \"Alegreya Sans SC\""
     },
     {
       "name": "Alegreya Sans",
@@ -85,7 +85,7 @@
       "style": "italic",
       "weight": 300,
       "filename": "AlegreyaSans-LightItalic.ttf",
-      "copyright": "Copyright (c) 2013, Natanael Gama (www.ndiscovered.com . info(at)ndiscovered.com), with Reserved Font Name Exo. This Font Software is licensed under the SIL Open Font License, Version 1.1."
+      "copyright": "Copyright (c) 2013, Juan Pablo del Peral (juan@huertatipografica.com), with Reserved Font Names \"Alegreya Sans\" \"Alegreya Sans SC\""
     },
     {
       "name": "Alegreya Sans",
@@ -94,7 +94,7 @@
       "style": "normal",
       "weight": 500,
       "filename": "AlegreyaSans-Medium.ttf",
-      "copyright": "Copyright (c) 2013, Natanael Gama (www.ndiscovered.com . info(at)ndiscovered.com), with Reserved Font Name Exo. This Font Software is licensed under the SIL Open Font License, Version 1.1."
+      "copyright": "Copyright (c) 2013, Juan Pablo del Peral (juan@huertatipografica.com), with Reserved Font Names \"Alegreya Sans\" \"Alegreya Sans SC\""
     },
     {
       "name": "Alegreya Sans",
@@ -103,7 +103,7 @@
       "style": "italic",
       "weight": 500,
       "filename": "AlegreyaSans-MediumItalic.ttf",
-      "copyright": "Copyright (c) 2013, Natanael Gama (www.ndiscovered.com . info(at)ndiscovered.com), with Reserved Font Name Exo. This Font Software is licensed under the SIL Open Font License, Version 1.1."
+      "copyright": "Copyright (c) 2013, Juan Pablo del Peral (juan@huertatipografica.com), with Reserved Font Names \"Alegreya Sans\" \"Alegreya Sans SC\""
     },
     {
       "name": "Alegreya Sans",
@@ -112,7 +112,7 @@
       "style": "normal",
       "weight": 400,
       "filename": "AlegreyaSans-Regular.ttf",
-      "copyright": "Copyright (c) 2013, Natanael Gama (www.ndiscovered.com . info(at)ndiscovered.com), with Reserved Font Name Exo. This Font Software is licensed under the SIL Open Font License, Version 1.1."
+      "copyright": "Copyright (c) 2013, Juan Pablo del Peral (juan@huertatipografica.com), with Reserved Font Names \"Alegreya Sans\" \"Alegreya Sans SC\""
     },
     {
       "name": "Alegreya Sans",
@@ -121,7 +121,7 @@
       "style": "normal",
       "weight": 100,
       "filename": "AlegreyaSans-Thin.ttf",
-      "copyright": "Copyright (c) 2013, Natanael Gama (www.ndiscovered.com . info(at)ndiscovered.com), with Reserved Font Name Exo. This Font Software is licensed under the SIL Open Font License, Version 1.1."
+      "copyright": "Copyright (c) 2013, Juan Pablo del Peral (juan@huertatipografica.com), with Reserved Font Names \"Alegreya Sans\" \"Alegreya Sans SC\""
     },
     {
       "name": "Alegreya Sans",
@@ -130,7 +130,7 @@
       "style": "italic",
       "weight": 100,
       "filename": "AlegreyaSans-ThinItalic.ttf",
-      "copyright": "Copyright (c) 2013, Natanael Gama (www.ndiscovered.com . info(at)ndiscovered.com), with Reserved Font Name Exo. This Font Software is licensed under the SIL Open Font License, Version 1.1."
+      "copyright": "Copyright (c) 2013, Juan Pablo del Peral (juan@huertatipografica.com), with Reserved Font Names \"Alegreya Sans\" \"Alegreya Sans SC\""
     }
   ],
   "subsets": [

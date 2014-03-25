@@ -2,7 +2,7 @@
   "name": "Droid Arabic Naskh",
   "designer": "Pascal Zoghbi",
   "license": "Apache2",
-  "visibility": "Internal",
+  "visibility": "Sandbox",
   "category": "Display",
   "size": 106297,
   "fonts": [

@@ -42,7 +42,8 @@ N: Hector Gatti
 D: Designer
 W: www.omnibus-type.com
 
-N: Tim Ahrens
-E: tim@justanotherfoundry.com
+N: Tim Ahrens (with administrative assistance from 
+   Greg Veen)
+E: gregveen@adobe.com
 D: Font Engineer
 W: www.typekit.com

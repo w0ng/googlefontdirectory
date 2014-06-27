@@ -8,75 +8,75 @@
   "fonts": [
     {
       "name": "Fira Sans",
-      "postScriptName": "FiraSans-Bold",
-      "fullName": "Fira Sans Bold",
       "style": "normal",
       "weight": 700,
       "filename": "FiraSans-Bold.ttf",
-      "copyright": "Digitized data copyright (c) 2012-2013, The Mozilla Corporation and Telefonica S.A."
+      "postScriptName": "FiraSans-Bold",
+      "fullName": "Fira Sans Bold",
+      "copyright": "Digitized data copyright \u00a9 2012-2014, The Mozilla Foundation and Telefonica S.A."
     },
     {
       "name": "Fira Sans",
-      "postScriptName": "FiraSans-BoldItalic",
-      "fullName": "Fira Sans Bold Italic",
       "style": "italic",
       "weight": 700,
       "filename": "FiraSans-BoldItalic.ttf",
-      "copyright": "Digitized data copyright (c) 2012-2013, The Mozilla Corporation and Telefonica S.A."
+      "postScriptName": "FiraSans-BoldItalic",
+      "fullName": "Fira Sans Bold Italic",
+      "copyright": "Digitized data copyright \u00a9 2012-2014, The Mozilla Foundation and Telefonica S.A."
     },
     {
       "name": "Fira Sans",
-      "postScriptName": "FiraSans-Italic",
-      "fullName": "Fira Sans Italic",
       "style": "italic",
       "weight": 400,
       "filename": "FiraSans-Italic.ttf",
-      "copyright": "Digitized data copyright (c) 2012-2013, The Mozilla Corporation and Telefonica S.A."
+      "postScriptName": "FiraSans-Italic",
+      "fullName": "Fira Sans Italic",
+      "copyright": "Digitized data copyright \u00a9 2012-2014, The Mozilla Foundation and Telefonica S.A."
     },
     {
       "name": "Fira Sans",
-      "postScriptName": "FiraSansLight",
-      "fullName": "Fira Sans Light",
       "style": "normal",
       "weight": 300,
       "filename": "FiraSans-Light.ttf",
-      "copyright": "Digitized data copyright (c) 2012-2013, The Mozilla Corporation and Telefonica S.A."
+      "postScriptName": "FiraSans-Light",
+      "fullName": "Fira Sans Light",
+      "copyright": "Digitized data copyright \u00a9 2012-2014, The Mozilla Foundation and Telefonica S.A."
     },
     {
       "name": "Fira Sans",
-      "postScriptName": "FiraSansLight-Italic",
-      "fullName": "Fira Sans Light Italic",
       "style": "italic",
       "weight": 300,
       "filename": "FiraSans-LightItalic.ttf",
-      "copyright": "Digitized data copyright (c) 2012-2013, The Mozilla Corporation and Telefonica S.A."
+      "postScriptName": "FiraSans-LightItalic",
+      "fullName": "Fira Sans Light Italic",
+      "copyright": "Digitized data copyright \u00a9 2012-2014, The Mozilla Foundation and Telefonica S.A."
     },
     {
       "name": "Fira Sans",
-      "postScriptName": "FiraSansMedium",
-      "fullName": "Fira Sans Medium",
       "style": "normal",
       "weight": 500,
       "filename": "FiraSans-Medium.ttf",
-      "copyright": "Digitized data copyright (c) 2012-2013, The Mozilla Corporation and Telefonica S.A."
+      "postScriptName": "FiraSans-Medium",
+      "fullName": "Fira Sans Medium",
+      "copyright": "Digitized data copyright \u00a9 2012-2014, The Mozilla Foundation and Telefonica S.A."
     },
     {
       "name": "Fira Sans",
-      "postScriptName": "FiraSansMedium-Italic",
-      "fullName": "Fira Sans Medium Italic",
       "style": "italic",
       "weight": 500,
       "filename": "FiraSans-MediumItalic.ttf",
-      "copyright": "Digitized data copyright (c) 2012-2013, The Mozilla Corporation and Telefonica S.A."
+      "postScriptName": "FiraSans-MediumItalic",
+      "fullName": "Fira Sans Medium Italic",
+      "copyright": "Digitized data copyright \u00a9 2012-2014, The Mozilla Foundation and Telefonica S.A."
     },
     {
       "name": "Fira Sans",
-      "postScriptName": "FiraSans",
-      "fullName": "Fira Sans",
       "style": "normal",
       "weight": 400,
       "filename": "FiraSans-Regular.ttf",
-      "copyright": "Digitized data copyright (c) 2012-2013, The Mozilla Corporation and Telefonica S.A."
+      "postScriptName": "FiraSans-Regular",
+      "fullName": "Fira Sans",
+      "copyright": "Digitized data copyright \u00a9 2012-2014, The Mozilla Foundation and Telefonica S.A."
     }
   ],
   "subsets": [
@@ -85,8 +85,7 @@
     "greek",
     "latin",
     "latin-ext",
-    "menu",
-    "vietnamese"
+    "menu"
   ],
-  "dateAdded": "2013-12-04"
+  "dateAdded": "2014-06-18"
 }

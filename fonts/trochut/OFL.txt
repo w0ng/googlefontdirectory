@@ -1,7 +1,7 @@
 Copyright (c) 2011, Andreu Balius (http://www.typerepublic.com),
 with Reserved Font Name "Trochut".
 
-This Font Software is licensed under the Open Font License, Version 1.1 
+This Font Software is licensed under the SIL Open Font License, Version 1.1 
 This license is copied below, and is also available with a FAQ at: 
 http://scripts.sil.org/OFL
 

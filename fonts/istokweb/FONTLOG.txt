@@ -1,13 +1,3 @@
-FONTLOG for Istok Web fonts
-
-This file provides detailed information on the Istok Web 
-Font Software.
-
-This information should be distributed along with the 
-Istok Web fonts and any derivative works.
-
-Basic Font Information
-
 Istok is a new sans serif typeface. At present it has the four fonts with
 support for Latin and Cyrillic. Most glyphs are manually instructed
 using xgridfit but other ones are autoinstructed in fontforge.
@@ -51,17 +41,24 @@ as root to install the fonts system-wide (/usr/share/fonts/TTF). Otherwise
 copy the *.ttf files into the ~/.fonts/ directory. Then run fc-cache if you have
 fontconfig.
 
-Istok Web is a Unicode typeface family that supports languages 
-that use the Latin script and its variants, and could be 
-expanded to support other scripts.
-
-To contribute to the project contact Andrey V. Panov at
-panov@canopus.iacp.dvo.ru
-
-ChangeLog
+The history of the font
+=======================
 
 The modified version of the CM Bright font was used for design of several
 letters as raw material, other charaters are designed from scratch.
+
+				Andrey V. Panov <panov@canopus.iacp.dvo.ru>
+
+2014-06-10 Andrey V. Panov
+	Added several mathematical symbols.
+	Added ruble sign.
+	Improved LaTeX support.
+	Version 1.0.2 is released.
+
+2012-09-20 Andrey V. Panov
+	Smoothed contours of "a".
+	Fixed an issue with rendering "four", Cyrillic ya.
+	Version 1.0.1 is released.
 
 2012-03-16 Andrey V. Panov
 	Added more smallcaps.
@@ -168,14 +165,3 @@ letters as raw material, other charaters are designed from scratch.
 2008-12-02 Andrey V. Panov
 
 	Finished more or less basic set of glyphs in Regular font.
-
-Acknowledgements
-
-If you make modifications be sure to add your name (N), 
-email (E), web-address (if you have one) (W) and 
-description (D). This list is in alphabetical order.
-
-N: Andrey V. Panov
-E: panov@canopus.iacp.dvo.ru
-W: http://code.google.com/p/istok/
-D: Original Type Designer

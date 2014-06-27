@@ -7,20 +7,16 @@ and any derivative works.
 
 Basic Font Information
 
-Do you remember the "Life Savers" candies adds from the 50s? That was a time
-when Ad Agencies actually hired Lettering Artist for they advertising text.
-Before the advent of Photo Typesetting, all the text was beautifully drawn by
-hand.
+Do you remember the "Life Savers" candies adds from the 50s?
+That was a time when Ad Agencies actually hired Lettering Artist for they advertising text.
+Before the advent of Photo Typesetting, all the text was beautifully drawn by hand.
 
-We are going to put some love to work and bring back the Life Savers
-hand-lettered Typewritter/Stymie mix. Probably drawn originally by Frazier
-Purdy for the Sam Marsh Studio. 
-
-Revival by Pablo Impallari, Rodrigo Fuenzalida and Brenda Gallo, spaced and
-kerned by iKern.
+We are going to put some love to work and bring back the Life Savers hand-lettered Typewritter/Stymie mix.
+Probably drawn originally by Frazier Purdy for the Sam Marsh Studio.
+Revival by Pablo Impallari, Rodrigo Fuenzalida and Brenda Gallo, spaced and kerned by iKern.
 
 Join the project at:
-http://www.impallari.com/projects/overview/life-savers-handlettered-stymie
+http://www.impallari.com/projects
 
 Documentation can be found at www.impallari.com
 
@@ -48,6 +44,9 @@ Turkmen, Tuvaluan, Uzbek/Usbek, Wallisian, Walloon, Welsh,
 Xhosa and Zulu.
 
 ChangeLog
+
+22 Ago 2013 (Pablo Impallari, Rodrigo Fuenzalida, Igino Marini, Brenda Gallo) Life Savers v3.00
+- New Extrabold weight added to the Family
 
 28 Nov 2012 (Pablo Impallari, Rodrigo Fuenzalida, Igino Marini) Life Savers v2.01
 - Bold weight added

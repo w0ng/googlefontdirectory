@@ -31,12 +31,33 @@ This repository mirrors that repo, but only contains the web font files
 files, by periodically updating the hg repo and executing:
 
 ```sh
-# Find webfont or license or metadata file in the hg repo.
-# Extract dirname from file.
-# Extract parent folder name from dirname. Create parent folder name in git repo if it doesn't exist.
-# Copy the file changes to git repo
-find ./googlefonts-hg/{apache,ofl,ufl} -maxdepth 2 \( -name '*.ttf' -o -name '*.txt' -o -name '*.json' \) \
-  -exec sh -c 'dir="${1%/*}"; \
-  [[ ! -d ./googlefonts-git/fonts/"${dir##*/}" ]] && mkdir -pv ./googlefonts-git/fonts/"${dir##*/}"; \
-  rsync -rmv --delete "$1" ./googlefonts-git/fonts/"${1#*/*/*/}";' _ {} \;
+# Pull latest updates from hg repo.
+cd ./googlefonts-hg && hg pull --update && cd ..
+
+# Save webfont, license and metadata file changes to github repo
+for fontdir in ./googlefonts-hg/{apache,ofl,ufl}/*
+do
+    rsync -av \
+        --exclude='/*/*/*' \
+        --include='*/' \
+        --include='*.ttf' \
+        --include='*.txt' \
+        --include='*.json' \
+        --exclude='*' \
+        --delete \
+        --prune-empty-dirs \
+        "$fontdir" ./googlefonts-git/fonts/
+done
+
+# Remove obsolete fonts (that have been removed/renamed in hg repo)
+for fontdir in ./googlefonts-git/fonts/*
+do
+    fontname="${fontdir##*/}"
+    if [[ ! -d "./googlefonts-hg/apache/$fontname"  && 
+        ! -d "./googlefonts-hg/ofl/$fontname" &&
+        ! -d "./googlefonts-hg/ufl/$fontname" ]]
+    then
+        rm -r "$fontdir"
+    fi
+done
 ```

@@ -1,62 +1,62 @@
 {
-  "name": "Hind",
+  "name": "Rajdhani",
   "designer": "Indian Type Foundry",
   "license": "OFL",
   "visibility": "External",
   "category": "Sans Serif",
-  "size": 79589,
+  "size": 145353,
   "fonts": [
     {
-      "name": "Hind",
+      "name": "Rajdhani",
       "style": "normal",
       "weight": 700,
-      "filename": "Hind-Bold.ttf",
-      "postScriptName": "Hind-Bold",
-      "fullName": "Hind Bold",
+      "filename": "Rajdhani-Bold.ttf",
+      "postScriptName": "Rajdhani-Bold",
+      "fullName": "Rajdhani Bold",
       "copyright": "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
     },
     {
-      "name": "Hind",
+      "name": "Rajdhani",
       "style": "normal",
       "weight": 300,
-      "filename": "Hind-Light.ttf",
-      "postScriptName": "Hind-Light",
-      "fullName": "Hind Light",
+      "filename": "Rajdhani-Light.ttf",
+      "postScriptName": "Rajdhani-Light",
+      "fullName": "Rajdhani Light",
       "copyright": "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
     },
     {
-      "name": "Hind",
+      "name": "Rajdhani",
       "style": "normal",
       "weight": 500,
-      "filename": "Hind-Medium.ttf",
-      "postScriptName": "Hind-Medium",
-      "fullName": "Hind Medium",
+      "filename": "Rajdhani-Medium.ttf",
+      "postScriptName": "Rajdhani-Medium",
+      "fullName": "Rajdhani Medium",
       "copyright": "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
     },
     {
-      "name": "Hind",
+      "name": "Rajdhani",
       "style": "normal",
       "weight": 400,
-      "filename": "Hind-Regular.ttf",
-      "postScriptName": "Hind-Regular",
-      "fullName": "Hind Regular",
+      "filename": "Rajdhani-Regular.ttf",
+      "postScriptName": "Rajdhani-Regular",
+      "fullName": "Rajdhani",
       "copyright": "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
     },
     {
-      "name": "Hind",
+      "name": "Rajdhani",
       "style": "normal",
       "weight": 600,
-      "filename": "Hind-Semibold.ttf",
-      "postScriptName": "Hind-Semibold",
-      "fullName": "Hind Semibold",
+      "filename": "Rajdhani-SemiBold.ttf",
+      "postScriptName": "Rajdhani-Semibold",
+      "fullName": "Rajdhani Semibold",
       "copyright": "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
     }
   ],
   "subsets": [
+    "devanagari",
     "latin",
     "latin-ext",
-    "devanagari",
     "menu"
   ],
-  "dateAdded": "2014-06-25"
+  "dateAdded": "2014-07-09"
 }

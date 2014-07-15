@@ -1,0 +1,44 @@
+{
+  "name": "Kalam",
+  "designer": "Indian Type Foundry",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 188891,
+  "fonts": [
+    {
+      "name": "Kalam",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Kalam-Bold.ttf",
+      "postScriptName": "Kalam-Bold",
+      "fullName": "Kalam Bold",
+      "copyright": "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
+    },
+    {
+      "name": "Kalam",
+      "style": "normal",
+      "weight": 300,
+      "filename": "Kalam-Light.ttf",
+      "postScriptName": "Kalam-Light",
+      "fullName": "Kalam Light",
+      "copyright": "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
+    },
+    {
+      "name": "Kalam",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Kalam-Regular.ttf",
+      "postScriptName": "Kalam-Regular",
+      "fullName": "Kalam",
+      "copyright": "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
+    }
+  ],
+  "subsets": [
+    "devanagari",
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2014-07-09"
+}

@@ -2,7 +2,7 @@
   "name": "Teko",
   "designer": "Indian Type Foundry",
   "license": "OFL",
-  "visibility": "Sandbox",
+  "visibility": "External",
   "category": "Sans Serif",
   "size": 125910,
   "fonts": [
@@ -47,7 +47,7 @@
       "style": "normal",
       "weight": 600,
       "filename": "Teko-SemiBold.ttf",
-      "postScriptName": "Teko-Semibold",
+      "postScriptName": "Teko-SemiBold",
       "fullName": "Teko SemiBold",
       "copyright": "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
     }

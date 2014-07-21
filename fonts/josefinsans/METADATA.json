@@ -4,7 +4,7 @@
   "license": "OFL",
   "visibility": "External",
   "category": "Sans Serif",
-  "size": 19883,
+  "size": 43171,
   "fonts": [
     {
       "name": "Josefin Sans",
@@ -99,6 +99,7 @@
   ],
   "subsets": [
     "latin",
+    "latin-ext",
     "menu"
   ],
   "dateAdded": "2010-11-17"

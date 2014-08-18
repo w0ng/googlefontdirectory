@@ -1,0 +1,62 @@
+{
+  "name": "Palanquin",
+  "designer": "Pria Ravichandran",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": 221426,
+  "fonts": [
+    {
+      "name": "Palanquin",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Palanquin-Bold.ttf",
+      "postScriptName": "Palanquin-Bold",
+      "fullName": "Palanquin Bold",
+      "copyright": "Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)"
+    },
+    {
+      "name": "Palanquin",
+      "style": "normal",
+      "weight": 300,
+      "filename": "Palanquin-Light.ttf",
+      "postScriptName": "Palanquin-Light",
+      "fullName": "Palanquin Light",
+      "copyright": "Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)"
+    },
+    {
+      "name": "Palanquin",
+      "style": "normal",
+      "weight": 500,
+      "filename": "Palanquin-Medium.ttf",
+      "postScriptName": "Palanquin-Medium",
+      "fullName": "Palanquin Medium",
+      "copyright": "Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)"
+    },
+    {
+      "name": "Palanquin",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Palanquin-Regular.ttf",
+      "postScriptName": "Palanquin",
+      "fullName": "Palanquin",
+      "copyright": "Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)"
+    },
+    {
+      "name": "Palanquin",
+      "style": "normal",
+      "weight": 600,
+      "filename": "Palanquin-SemiBold.ttf",
+      "postScriptName": "Palanquin-Semibold",
+      "fullName": "Palanquin Semibold",
+      "copyright": "Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)"
+    }
+  ],
+  "subsets": [
+    "devanagari",
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2014-08-13"
+}

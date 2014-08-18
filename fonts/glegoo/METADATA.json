@@ -9,14 +9,24 @@
     {
       "name": "Glegoo",
       "style": "normal",
+      "weight": 700,
+      "filename": "Glegoo-Bold.ttf",
+      "postScriptName": "Glegoo-Bold",
+      "fullName": "Glegoo Bold",
+      "copyright": "Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar), Copyright 2011-13 Lohit Fonts Project contributors (http://fedorahosted.org/lohit)"
+    },
+    {
+      "name": "Glegoo",
+      "style": "normal",
       "weight": 400,
       "filename": "Glegoo-Regular.ttf",
       "postScriptName": "Glegoo-Regular",
       "fullName": "Glegoo",
-      "copyright": "Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar edu@tipo.net.ar), with Reserved Font Name \"Glegoo\""
+      "copyright": "Copyright (c) 2011, Eduardo Tunni (http://www.tipo.net.ar), Copyright 2011-13 Lohit Fonts Project contributors (http://fedorahosted.org/lohit)"
     }
   ],
   "subsets": [
+    "devanagari",
     "latin",
     "latin-ext",
     "menu"

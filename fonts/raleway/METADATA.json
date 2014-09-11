@@ -72,7 +72,7 @@
     {
       "name": "Raleway",
       "style": "italic",
-      "weight": 250,
+      "weight": 200,
       "filename": "Raleway-ExtraLightItalic.ttf",
       "postScriptName": "Raleway-ExtraLightItalic",
       "fullName": "Raleway ExtraLight Italic",
@@ -162,7 +162,7 @@
     {
       "name": "Raleway",
       "style": "italic",
-      "weight": 250,
+      "weight": 100,
       "filename": "Raleway-ThinItalic.ttf",
       "postScriptName": "Raleway-ThinItalic",
       "fullName": "Raleway Thin Italic",

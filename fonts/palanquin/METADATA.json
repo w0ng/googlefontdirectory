@@ -38,7 +38,7 @@
       "style": "normal",
       "weight": 400,
       "filename": "Palanquin-Regular.ttf",
-      "postScriptName": "Palanquin",
+      "postScriptName": "Palanquin-Regular",
       "fullName": "Palanquin",
       "copyright": "Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)"
     },
@@ -47,8 +47,8 @@
       "style": "normal",
       "weight": 600,
       "filename": "Palanquin-SemiBold.ttf",
-      "postScriptName": "Palanquin-Semibold",
-      "fullName": "Palanquin Semibold",
+      "postScriptName": "Palanquin-SemiBold",
+      "fullName": "Palanquin SemiBold",
       "copyright": "Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)"
     }
   ],

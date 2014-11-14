@@ -4,7 +4,7 @@
   "license": "OFL",
   "visibility": "Sandbox",
   "category": "Sans Serif",
-  "size": 221426,
+  "size": 228333,
   "fonts": [
     {
       "name": "Palanquin",
@@ -39,7 +39,7 @@
       "weight": 400,
       "filename": "Palanquin-Regular.ttf",
       "postScriptName": "Palanquin-Regular",
-      "fullName": "Palanquin",
+      "fullName": "Palanquin Regular",
       "copyright": "Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)"
     },
     {
@@ -53,10 +53,10 @@
     }
   ],
   "subsets": [
-    "devanagari",
+	"menu",
     "latin",
-    "latin-ext",
-    "menu"
+	"latin-ext",
+	"devanagari"
   ],
-  "dateAdded": "2014-08-27"
+  "dateAdded": "2014-10-27"
 }

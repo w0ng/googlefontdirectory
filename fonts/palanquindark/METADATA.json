@@ -1,0 +1,53 @@
+{
+  "name": "Palanquin Dark",
+  "designer": "Pria Ravichandran",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": 252090,
+  "fonts": [
+    {
+      "name": "PalanquinDark",
+      "style": "normal",
+      "weight": 700,
+      "filename": "PalanquinDark-Bold.ttf",
+      "postScriptName": "PalanquinDark-Bold",
+      "fullName": "PalanquinDark Bold",
+      "copyright": "Copyright (c) 2014 Vanilla & Cream <pria.ravichandran@gmail.com>"
+    },
+    {
+      "name": "PalanquinDark",
+      "style": "normal",
+      "weight": 500,
+      "filename": "PalanquinDark-Medium.ttf",
+      "postScriptName": "PalanquinDark-Medium",
+      "fullName": "PalanquinDark Medium",
+      "copyright": "Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)"
+    },
+    {
+      "name": "PalanquinDark",
+      "style": "normal",
+      "weight": 400,
+      "filename": "PalanquinDark-Regular.ttf",
+      "postScriptName": "PalanquinDark",
+      "fullName": "PalanquinDark",
+      "copyright": "Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)"
+    },
+    {
+      "name": "PalanquinDark",
+      "style": "normal",
+      "weight": 600,
+      "filename": "PalanquinDark-SemiBold.ttf",
+      "postScriptName": "PalanquinDark-SemiBold",
+      "fullName": "PalanquinDark SemiBold",
+      "copyright": "Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)"
+    }
+  ],
+  "subsets": [
+	"menu",
+    "latin",
+	"latin-ext",
+	"devanagari"
+  ],
+  "dateAdded": "2014-10-27"
+}

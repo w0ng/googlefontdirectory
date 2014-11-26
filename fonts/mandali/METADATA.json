@@ -1,0 +1,25 @@
+{
+  "name": "Mandali",
+  "designer": "Purushoth Kumar Guthula",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Serif",
+  "size": 276140,
+  "fonts": [
+    {
+      "name": "Mandali",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Mandali-Regular.ttf",
+      "postScriptName": "Mandali",
+      "fullName": "Mandali",
+      "copyright": "Copyright (c) 2012 SiliconAndhra (fonts.siliconandhra.org)"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu",
+	"telugu"
+  ],
+  "dateAdded": "2014-12-10"
+}

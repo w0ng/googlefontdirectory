@@ -1,0 +1,25 @@
+{
+  "name": "Gidugu",
+  "designer": "Purushoth Kumar Guthula",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": 67405,
+  "fonts": [
+    {
+      "name": "Gidugu",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Gidugu-Regular.ttf",
+      "postScriptName": "Gidugu",
+      "fullName": "Gidugu",
+      "copyright": "Copyright (c) 2012 SiliconAndhra (fonts.siliconandhra.org)"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu",
+	"telugu"
+  ],
+  "dateAdded": "2014-12-10"
+}

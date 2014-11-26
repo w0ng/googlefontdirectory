@@ -1,0 +1,25 @@
+{
+  "name": "Suranna",
+  "designer": "Purushoth Kumar Guthula",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Serif",
+  "size": 124163,
+  "fonts": [
+    {
+      "name": "Suranna",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Suranna-Regular.ttf",
+      "postScriptName": "Suranna",
+      "fullName": "Suranna",
+      "copyright": "Copyright (c) 2012 Andhrapradesh Society for Knowledge Networks (fonts.siliconandhra.org)"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu",
+	"telugu"
+  ],
+  "dateAdded": "2014-12-10"
+}

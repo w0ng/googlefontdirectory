@@ -1,0 +1,25 @@
+{
+  "name": "Peddana",
+  "designer": "Ambarisha Darbha",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Serif",
+  "size": 501323,
+  "fonts": [
+    {
+      "name": "Peddana",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Peddana-Regular.ttf",
+      "postScriptName": "Peddana",
+      "fullName": "Peddana Regular",
+      "copyright": "Copyright (c) 2012 Andhrapradesh Society for Knowledge Networks (fonts.siliconandhra.org)"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu",
+	"telugu"
+  ],
+  "dateAdded": "2014-12-10"
+}

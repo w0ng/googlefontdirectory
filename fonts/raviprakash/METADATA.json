@@ -1,0 +1,25 @@
+{
+  "name": "Ravi Prakash",
+  "designer": "Ambarisha Darbha",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Display",
+  "size": 123858,
+  "fonts": [
+    {
+      "name": "Ravi Prakash",
+      "style": "normal",
+      "weight": 400,
+      "filename": "RaviPrakash-Regular.ttf",
+      "postScriptName": "RaviPrakash",
+      "fullName": "Ravi Prakash",
+      "copyright": "Copyright (c) 2011 SiliconAndhra (fonts.siliconandhra.org)"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu",
+	"telugu"
+  ],
+  "dateAdded": "2014-12-10"
+}

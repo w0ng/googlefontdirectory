@@ -1,0 +1,25 @@
+{
+  "name": "Lakki Reddy",
+  "designer": "Ambarisha Darbha",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Display",
+  "size": 183615,
+  "fonts": [
+    {
+      "name": "Lakki Reddy",
+      "style": "normal",
+      "weight": 400,
+      "filename": "LakkiReddy-Regular.ttf",
+      "postScriptName": "LakkiReddy",
+      "fullName": "Lakki Reddy",
+      "copyright": "Copyright (c) 2011 SiliconAndhra (fonts.siliconandhra.org)"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu",
+	"telugu"
+  ],
+  "dateAdded": "2014-12-10"
+}

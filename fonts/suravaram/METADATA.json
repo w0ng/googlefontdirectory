@@ -1,0 +1,25 @@
+{
+  "name": "Suravaram",
+  "designer": "Purushoth Kumar Guthula",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Serif",
+  "size": 70201,
+  "fonts": [
+    {
+      "name": "Suravaram",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Suravaram-Regular.ttf",
+      "postScriptName": "Suravaram",
+      "fullName": "Suravaram",
+      "copyright": "Copyright (c) 2012 SiliconAndhra (fonts.siliconandhra.org)"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu",
+	"telugu"
+  ],
+  "dateAdded": "2014-12-10"
+}

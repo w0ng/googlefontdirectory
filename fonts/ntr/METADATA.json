@@ -1,0 +1,25 @@
+{
+  "name": "NTR",
+  "designer": "Purushoth Kumar Guthula",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Serif",
+  "size": 83669,
+  "fonts": [
+    {
+      "name": "NTR",
+      "style": "normal",
+      "weight": 400,
+      "filename": "NTR-Regular.ttf",
+      "postScriptName": "NTR",
+      "fullName": "NTR",
+      "copyright": "Copyright (c) 2012 SiliconAndhra (fonts.siliconandhra.org)"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu",
+	"telugu"
+  ],
+  "dateAdded": "2014-12-10"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Sree Krushnadevaraya",
+  "designer": "Purushoth Kumar Guthula",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Serif",
+  "size": 113464,
+  "fonts": [
+    {
+      "name": "Sree Krushnadevaraya",
+      "style": "normal",
+      "weight": 400,
+      "filename": "SreeKrushnadevaraya-Regular.ttf",
+      "postScriptName": "SreeKrushnadevaraya",
+      "fullName": "Sree Krushnadevaraya",
+      "copyright": "Copyright (c) 2012 Andhrapradesh Society for Knowledge Networks (fonts.siliconandhra.org)"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu",
+	"telugu"
+  ],
+  "dateAdded": "2014-12-10"
+}

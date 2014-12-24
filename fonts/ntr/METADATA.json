@@ -1,10 +1,10 @@
 {
   "name": "NTR",
-  "designer": "Purushoth Kumar Guthula",
+  "designer": "Purushoth Kumar",
   "license": "OFL",
   "visibility": "Sandbox",
-  "category": "Serif",
-  "size": 83669,
+  "category": "Sans Serif",
+  "size": 147346, 
   "fonts": [
     {
       "name": "NTR",
@@ -13,7 +13,7 @@
       "filename": "NTR-Regular.ttf",
       "postScriptName": "NTR",
       "fullName": "NTR",
-      "copyright": "Copyright (c) 2012 SiliconAndhra (fonts.siliconandhra.org)"
+      "copyright": "Copyright (c) 2012 Silicon Andhra (fonts.siliconandhra.org). Copyright (c) 2011, Joe Prince, Admix Designs (http://www.admixdesigns.com/) with Reserved Font Name Varela Round."
     }
   ],
   "subsets": [

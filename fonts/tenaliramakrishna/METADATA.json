@@ -4,7 +4,7 @@
   "license": "OFL",
   "visibility": "Sandbox",
   "category": "Sans Serif",
-  "size": 372056,
+  "size": 278474,
   "fonts": [
     {
       "name": "Tenali Ramakrishna",
@@ -13,7 +13,7 @@
       "filename": "TenaliRamakrishna-Regular.ttf",
       "postScriptName": "TenaliRamakrishna",
       "fullName": "Tenali Ramakrishna",
-      "copyright": "Copyright (c) 2012 Andhrapradesh Society for Knowledge Networks (fonts.siliconandhra.org)"
+      "copyright": "Copyright (c) 2012 Andhrapradesh Society for Knowledge Networks (fonts.siliconandhra.org). Copyright (c) 2011, Wojciech Kalinowski (wmk69@o2.pl), with Reserved Font Names 'Classica'"
     }
   ],
   "subsets": [

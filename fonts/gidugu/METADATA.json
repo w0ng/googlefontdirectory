@@ -1,10 +1,10 @@
 {
   "name": "Gidugu",
-  "designer": "Purushoth Kumar Guthula",
+  "designer": "Purushoth Kumar",
   "license": "OFL",
   "visibility": "Sandbox",
   "category": "Sans Serif",
-  "size": 67405,
+  "size": 164648, 
   "fonts": [
     {
       "name": "Gidugu",
@@ -13,13 +13,13 @@
       "filename": "Gidugu-Regular.ttf",
       "postScriptName": "Gidugu",
       "fullName": "Gidugu",
-      "copyright": "Copyright (c) 2012 SiliconAndhra (fonts.siliconandhra.org)"
+      "copyright": "Copyright (c) 2012 Silicon Andhra (fonts.siliconandhra.org). Copyright (c) 2014 Eduardo Tunni (http://www.tipo.net.ar)"
     }
   ],
   "subsets": [
     "latin",
     "menu",
-	"telugu"
+    "telugu"
   ],
   "dateAdded": "2014-12-10"
 }

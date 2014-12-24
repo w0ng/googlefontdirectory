@@ -1,10 +1,10 @@
 {
   "name": "NATS",
-  "designer": "Purushoth Kumar Guthula",
+  "designer": "Purushoth Kumar",
   "license": "OFL",
   "visibility": "Sandbox",
   "category": "Sans Serif",
-  "size": 62035,
+  "size": 136565,
   "fonts": [
     {
       "name": "NATS",
@@ -13,7 +13,7 @@
       "filename": "NATS-Regular.ttf",
       "postScriptName": "NATS",
       "fullName": "NATS",
-      "copyright": "Copyright (c) 2012 SiliconAndhra (fonts.siliconandhra.org)"
+      "copyright": "Copyright (c) 2012 Silicon Andhra (fonts.siliconandhra.org). Copyright (c) 2011-2012, Julieta Ulanovsky (julieta.ulanovsky@gmail.com), with Reserved Font Names 'Montserrat'"
     }
   ],
   "subsets": [

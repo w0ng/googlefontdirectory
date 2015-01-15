@@ -1,10 +1,10 @@
 {
   "name": "Suravaram",
-  "designer": "Purushoth Kumar",
+  "designer": "Purushoth Kumar Guttula",
   "license": "OFL",
   "visibility": "Sandbox",
   "category": "Serif",
-  "size": 70201,
+  "size": 119552,
   "fonts": [
     {
       "name": "Suravaram",
@@ -13,7 +13,7 @@
       "filename": "Suravaram-Regular.ttf",
       "postScriptName": "Suravaram",
       "fullName": "Suravaram",
-      "copyright": "Copyright (c) 2012 Silicon Andhra (fonts.siliconandhra.org)"
+      "copyright": "Copyright (c) 2012 Silicon Andhra (fonts.siliconandhra.org). Copyright (c) 2011 by vernon adams (vern@newtypography.co.uk) with Reserved Font Name 'Tienne'"
     }
   ],
   "subsets": [
@@ -21,5 +21,5 @@
     "menu",
 	"telugu"
   ],
-  "dateAdded": "2014-12-10"
+  "dateAdded": "2015-01-12"
 }

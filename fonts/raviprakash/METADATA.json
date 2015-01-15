@@ -1,19 +1,19 @@
 {
   "name": "Ravi Prakash",
-  "designer": "Ambarisha Darbha",
+  "designer": "Appaji Ambarisha Darbha",
   "license": "OFL",
   "visibility": "Sandbox",
   "category": "Display",
-  "size": 123858,
+  "size": 128642,
   "fonts": [
     {
       "name": "Ravi Prakash",
       "style": "normal",
       "weight": 400,
       "filename": "RaviPrakash-Regular.ttf",
-      "postScriptName": "RaviPrakash",
+      "postScriptName": "RaviPrakash-Regular",
       "fullName": "Ravi Prakash",
-      "copyright": "Copyright (c) 2011 Silicon Andhra (fonts.siliconandhra.org)"
+      "copyright": "Copyright (c) 2011 Silicon Andhra (fonts.siliconandhra.org). Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved Font Name 'Joti'"
     }
   ],
   "subsets": [
@@ -21,5 +21,5 @@
     "menu",
 	"telugu"
   ],
-  "dateAdded": "2014-12-10"
+  "dateAdded": "2015-01-12"
 }

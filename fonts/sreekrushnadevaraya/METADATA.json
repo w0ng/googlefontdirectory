@@ -1,10 +1,10 @@
 {
   "name": "Sree Krushnadevaraya",
-  "designer": "Purushoth Kumar",
+  "designer": "Purushoth Kumar Guttula",
   "license": "OFL",
   "visibility": "Sandbox",
   "category": "Serif",
-  "size": 113464,
+  "size": 215327,
   "fonts": [
     {
       "name": "Sree Krushnadevaraya",
@@ -13,7 +13,7 @@
       "filename": "SreeKrushnadevaraya-Regular.ttf",
       "postScriptName": "SreeKrushnadevaraya",
       "fullName": "Sree Krushnadevaraya",
-      "copyright": "Copyright (c) 2012 Silicon Andhra (fonts.siliconandhra.org)"
+      "copyright": "Copyright (c) 2012 Andhrapradesh Society for Knowledge Networks (fonts.siliconandhra.org). Copyright (c) 2011-2012, Sorkin Type Co (www.sorkintype.com) with Reserved Font Name 'Cantata'"
     }
   ],
   "subsets": [
@@ -21,5 +21,5 @@
     "menu",
 	"telugu"
   ],
-  "dateAdded": "2014-12-10"
+  "dateAdded": "2015-01-12"
 }

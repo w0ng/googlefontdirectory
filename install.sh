@@ -8,7 +8,8 @@ curl -L https://github.com/w0ng/googlefontdirectory/tarball/master -o master.tar
 echo "Extracting the fonts..."
 mkdir goog-fonts
 tar -zxf master.tar.gz -C goog-fonts
-cd goog-fonts/qrpike*
+cd goog-fonts
+cd */
 mv fonts/* /Library/Fonts/
 
 echo "Fonts Installed, Cleaning Up Files.."

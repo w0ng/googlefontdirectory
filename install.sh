@@ -10,6 +10,12 @@ mkdir goog-fonts
 tar -zxf master.tar.gz -C goog-fonts
 cd goog-fonts
 cd */
+cd fonts
+find . -mindepth 2 -type f -print -exec mv {} . \;
+rm -R -- */
+rm *.txt
+rm *.json
+cd ..
 mv fonts/* /Library/Fonts/
 
 echo "Fonts Installed, Cleaning Up Files.."

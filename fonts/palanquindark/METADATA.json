@@ -4,42 +4,42 @@
   "license": "OFL",
   "visibility": "Sandbox",
   "category": "Sans Serif",
-  "size": 252090,
+  "size": 213684,
   "fonts": [
     {
-      "name": "PalanquinDark",
+      "name": "Palanquin Dark",
       "style": "normal",
       "weight": 700,
       "filename": "PalanquinDark-Bold.ttf",
       "postScriptName": "PalanquinDark-Bold",
-      "fullName": "PalanquinDark Bold",
-      "copyright": "Copyright (c) 2014 Vanilla & Cream <pria.ravichandran@gmail.com>"
+      "fullName": "Palanquin Dark Bold",
+      "copyright": "Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)"
     },
     {
-      "name": "PalanquinDark",
+      "name": "Palanquin Dark",
       "style": "normal",
       "weight": 500,
       "filename": "PalanquinDark-Medium.ttf",
       "postScriptName": "PalanquinDark-Medium",
-      "fullName": "PalanquinDark Medium",
+      "fullName": "Palanquin Dark Medium",
       "copyright": "Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)"
     },
     {
-      "name": "PalanquinDark",
+      "name": "Palanquin Dark",
       "style": "normal",
       "weight": 400,
       "filename": "PalanquinDark-Regular.ttf",
-      "postScriptName": "PalanquinDark",
-      "fullName": "PalanquinDark",
+      "postScriptName": "PalanquinDark-Regular",
+      "fullName": "Palanquin Dark",
       "copyright": "Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)"
     },
     {
-      "name": "PalanquinDark",
+      "name": "Palanquin Dark",
       "style": "normal",
       "weight": 600,
       "filename": "PalanquinDark-SemiBold.ttf",
       "postScriptName": "PalanquinDark-SemiBold",
-      "fullName": "PalanquinDark SemiBold",
+      "fullName": "Palanquin Dark SemiBold",
       "copyright": "Copyright 2014 Pria Ravichandran (pria.ravichandran@gmail.com)"
     }
   ],
@@ -49,5 +49,5 @@
 	"latin-ext",
 	"devanagari"
   ],
-  "dateAdded": "2014-10-27"
+  "dateAdded": "2015-01-28"
 }

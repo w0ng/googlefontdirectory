@@ -18,6 +18,7 @@
   ],
   "subsets": [
     "arabic",
+    "latin",
     "menu"
   ],
   "dateAdded": "2012-01-18"

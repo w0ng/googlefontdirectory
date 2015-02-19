@@ -45,7 +45,8 @@
     }
   ],
   "subsets": [
+    "arabic",
     "latin",
-    "arabic"
+    "menu"
   ]
 }

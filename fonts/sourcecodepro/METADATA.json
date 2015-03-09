@@ -73,7 +73,8 @@
   "subsets": [
     "latin",
     "latin-ext",
-    "menu"
+    "menu",
+    "vietnamese"
   ],
   "dateAdded": "2012-09-20"
 }

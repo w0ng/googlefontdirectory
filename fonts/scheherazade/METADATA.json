@@ -2,18 +2,18 @@
   "name": "Scheherazade",
   "designer": "SIL International",
   "license": "OFL",
-  "visibility": "Sandbox",
-  "category": "Handwriting",
+  "visibility": "Internal",
+  "category": "Serif",
   "size": 118029,
   "fonts": [
     {
       "name": "Scheherazade",
       "style": "normal",
       "weight": 400,
-      "filename": "ScheherazadeRegOT.ttf",
+      "filename": "Scheherazade-R.ttf",
       "postScriptName": "Scheherazade",
       "fullName": "Scheherazade",
-      "copyright": "Copyright (c) 2004-2011, SIL International (http://www.sil.org/), with Reserved Font Names \"Scheherazade\" and \"SIL\"., and released under the SIL Open Font License 1.1."
+      "copyright": "Copyright (c) 1994 - 2014 by SIL International. All rights reserved."
     }
   ],
   "subsets": [

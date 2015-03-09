@@ -17,8 +17,10 @@
     }
   ],
   "subsets": [
+    "cyrillic",
     "latin",
-    "menu"
+    "menu",
+    "vietnamese"
   ],
   "dateAdded": "2010-05-17"
 }
